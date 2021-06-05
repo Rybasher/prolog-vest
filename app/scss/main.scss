@@ -1,0 +1,16 @@
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss"; // тут пишем обнуляющие стили
+@import "../../node_modules/bootstrap/scss/mixins/breakpoints"; // подключаем бутстрап брейкпоинты
+
+@import "adds/variables"; //пишем переменные
+@import "adds/fonts"; //подключаем шрифты
+@import "adds/mixins"; //подключаем миксины
+@import "adds/reset";
+@import "adds/bem";
+
+// @import "animate.css";
+// @import "lightgallery.css";
+//подключаем основные стили сайта(блоки)
+
+@import "blocks/header";
+@import "blocks/style";
+@import "blocks/footer";
