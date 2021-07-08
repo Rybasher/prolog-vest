@@ -1,5 +1,5 @@
-@import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss"; // тут пишем обнуляющие стили
-@import "../../node_modules/bootstrap/scss/mixins/breakpoints"; // подключаем бутстрап брейкпоинты
+// @import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss"; // тут пишем обнуляющие стили
+// @import "../../node_modules/bootstrap/scss/mixins/breakpoints"; // подключаем бутстрап брейкпоинты
 
 @import "adds/variables"; //пишем переменные
 @import "adds/fonts"; //подключаем шрифты
@@ -7,10 +7,14 @@
 @import "adds/reset";
 @import "adds/bem";
 
+@import "../../node_modules/animate.css/animate.css";
 // @import "animate.css";
 // @import "lightgallery.css";
 //подключаем основные стили сайта(блоки)
 
+@import "../../node_modules/swiper/swiper-bundle";
+
+@import "adds/cursr.scss";
 @import "blocks/header";
 @import "blocks/style";
 @import "blocks/footer";

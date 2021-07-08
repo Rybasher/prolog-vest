@@ -13,7 +13,7 @@ const speed = 0.1;
 let positionX = 0, positionY = 0;
 let coordXprocent = 0, coordYprocent = 0;
 
-function setMouseParallaxStyle(){
+function setMouseParallaxStyle() {
     const distX = coordXprocent - positionX;
     const distY = coordYprocent - positionY;
     positionX = positionX + (distX * speed);
@@ -26,7 +26,7 @@ function setMouseParallaxStyle(){
 }
 setMouseParallaxStyle();
 
-header.addEventListener("mousemove", function(e){
+header.addEventListener("mousemove", function (e) {
     const parralaxWidth = header.offsetWidth;
     const parralaxHeight = header.offsetHeight;
     console.log(parralaxHeight, parralaxWidth);
@@ -38,6 +38,6 @@ header.addEventListener("mousemove", function(e){
 
     coordXprocent = coordX / parralaxWidth * 100;
     coordYprocent = coordY / parralaxHeight * 100;
-    
+
 
 })
